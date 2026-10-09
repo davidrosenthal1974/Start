@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>להדראווי ❤️</title>
+<style>
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    color: #2d3748;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 24px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    padding: 44px 30px;
+    border-radius: 30px;
+    box-shadow: 0 20px 40px rgba(252, 182, 159, 0.4);
+    max-width: 440px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    animation: popIn 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .icon-top {
+    font-size: 3.6rem;
+    margin-bottom: 16px;
+    animation: bounce 2.2s infinite ease-in-out;
+  }
+  h1 {
+    color: #e53e3e;
+    font-size: 1.95rem;
+    margin: 0 0 20px 0;
+    font-weight: 800;
+  }
+  .greeting {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #4a5568;
+    font-weight: 500;
+  }
+  .highlight {
+    color: #dd6b20;
+    font-weight: 700;
+  }
+  .ready {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 1.45rem;
+    color: #e53e3e;
+    font-weight: 800;
+  }
+  @keyframes popIn {
+    from { transform: scale(0.9); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="icon-top">🎈 ✨ 🥳</div>
+  <h1>הדראווי היקרה שלי,</h1>
+  <div class="greeting">
+    היום הגדול הגיע ואת עומדת לפתוח עכשיו במסע יוצא דופן.<br><br>
+    זה יהיה <span class="highlight">מצחיק</span>, זה יהיה <span class="highlight">מעצבן</span> ויהיו <span class="highlight">הפתעות</span>.<br><br>
+    <div class="ready">מוכנה? 😉</div>
+  </div>
+</div>
+
+</body>
+</html>
